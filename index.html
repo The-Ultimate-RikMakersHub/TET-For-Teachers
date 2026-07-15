@@ -123,11 +123,13 @@
     </footer>
 
     <!-- Linking External Vanilla JavaScript Asset -->
+       <!-- Linking External Vanilla JavaScript Asset -->
     <script src="script.js"></script>
 
-    <!-- Chatbase AI Embedding Tool Integration -->
-    <script>
-    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://chatbase.co";script.id="MwC0s9XJEduG29d9zjS4I";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
-    </script>
+    <!-- Production Chatling AI Pedagogy Assistant Integration -->
+    <script> window.chtlConfig = { chatbotId: "6418833826" } </script>
+    <script async data-id="6418833826" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+
 </body>
 </html>
+

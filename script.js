@@ -1,19 +1,31 @@
-// Local database matching official exam parameters
+// Local database matching precise language splits and Paper II elective streams
 const examDatabase = {
     paper1: {
-        topics: ["Child Psychology Basics", "Inclusive Education", "Language Pedagogy", "Foundational Math", "Environmental EVS"],
+        topics: [
+            "Child Development & Pedagogy (30 Marks)", 
+            "Language I: Bengali / Regional (30 Marks)", 
+            "Language II: English (30 Marks)", 
+            "Primary Mathematics & Pedagogy (30 Marks)", 
+            "Environmental Studies - EVS (30 Marks)"
+        ],
         pdfs: [
-            { name: "Official CTET 2025 Paper-I PDF", url: "#" },
-            { name: "Official CTET 2024 Paper-I PDF", url: "#" },
-            { name: "Official WB-TET Past Paper-I PDF", url: "#" }
+            { name: "Official CTET 2025 Paper-I PDF", url: "papers/ctet-2025-p1.pdf" },
+            { name: "Official CTET 2024 Paper-I PDF", url: "papers/ctet-2024-p1.pdf" },
+            { name: "Official WB-TET Past Paper-I PDF", url: "papers/wbtet-2024-p1.pdf" }
         ]
     },
     paper2: {
-        topics: ["Piaget & Kohlberg Cognitive Models", "Advanced Classroom Management", "Subject Science / Mathematics", "Social Science Parameters"],
+        topics: [
+            "Child Development & Pedagogy (30 Marks)", 
+            "Language I: Bengali / Regional (30 Marks)", 
+            "Language II: English (30 Marks)", 
+            "Elective A: Math & Science Stream (60 Marks)", 
+            "Elective B: Social Science Stream (60 Marks)"
+        ],
         pdfs: [
-            { name: "Official CTET 2025 Paper-II PDF", url: "#" },
-            { name: "Official CTET 2024 Paper-II PDF", url: "#" },
-            { name: "Official WB-TET Past Paper-II PDF", url: "#" }
+            { name: "Official CTET 2025 Paper-II PDF", url: "papers/ctet-2025-p2.pdf" },
+            { name: "Official CTET 2024 Paper-II PDF", url: "papers/ctet-2024-p2.pdf" },
+            { name: "Official WB-TET Past Paper-II PDF", url: "papers/wbtet-2024-p2.pdf" }
         ]
     }
 };

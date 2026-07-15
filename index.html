@@ -67,7 +67,7 @@
                 <div class="section-block">
                     <h3 class="section-title">High-Weightage Focus Areas</h3>
                     <div id="topic-tags" class="tags-container">
-                        <!-- Loaded dynamically via JS -->
+                        <!-- Loaded dynamically via script.js -->
                     </div>
                 </div>
 
@@ -75,7 +75,7 @@
                 <div class="section-block">
                     <h3 class="section-title">Verified Official Question Papers</h3>
                     <div id="pdf-container" class="pdf-grid">
-                        <!-- Loaded dynamically via JS -->
+                        <!-- Loaded dynamically via script.js -->
                     </div>
                 </div>
             </div>
@@ -84,13 +84,14 @@
             <div class="planner-card">
                 <div class="planner-header">
                     <h2>My Study Planner Matrix</h2>
-                    <span class="port-badge">Ported Layout Active</span>
+                    <span class="port-badge">Live System Active</span>
                 </div>
-                <p class="planner-desc">Break down the 150-mark milestone map step-by-step without mental exhaustion.</p>
+                <p class="planner-desc">Track your 150-mark milestone map step-by-step using your interactive tracking grid.</p>
                 
-                <!-- Insert your exact checkbox tables from CBSE Cracker right here -->
-                <div class="placeholder-box">
-                    [Place your customized CBSE Cracker Class 9-10 Tracker HTML Structure / List Node Here]
+                <!-- Direct link opening your copied planner.html file -->
+                <div class="planner-action-box">
+                    <p class="action-alert-text">Your personalized CBSE Cracker tracking layout has been successfully optimized for TET parameters.</p>
+                    <a href="planner.html" target="_blank" class="launch-planner-btn">Launch Interactive Study Planner ➔</a>
                 </div>
             </div>
 
@@ -112,30 +113,6 @@
                 </ul>
             </div>
 
-            <!-- Ported CBSE Doubt Solver AI Chatbot Panel -->
-            <div class="chatbot-card">
-                <div class="chat-header">
-                    <div>
-                        <h2>Pedagogy Doubt Solver</h2>
-                        <p>TET Expert Engine Active</p>
-                    </div>
-                    <div class="pulse-indicator"></div>
-                </div>
-                
-                <!-- Chat Message Stream Target -->
-                <div id="chat-stream" class="chat-body">
-                    <div class="chat-bubble standard-bot">
-                        Hello! Ask me any structural questions regarding Piaget's stages, inclusive schooling, or application criteria.
-                    </div>
-                </div>
-
-                <!-- Chat Input Controls -->
-                <div class="chat-footer">
-                    <input type="text" placeholder="Ask about syllabus, psychology rules..." id="chat-input">
-                    <button class="send-btn">Send</button>
-                </div>
-            </div>
-
         </aside>
     </main>
 
@@ -147,5 +124,10 @@
 
     <!-- Linking External Vanilla JavaScript Asset -->
     <script src="script.js"></script>
+
+    <!-- Chatbase AI Embedding Tool Integration -->
+    <script>
+    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://chatbase.co";script.id="MwC0s9XJEduG29d9zjS4I";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+    </script>
 </body>
 </html>

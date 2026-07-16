@@ -1,0 +1,4 @@
+*.xml linguist-detectable=true
+*.xml linguist-documentation=false
+*.ps1 linguist-detectable=true
+*.ts linguist-detectable=true

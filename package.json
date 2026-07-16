@@ -1,0 +1,11 @@
+{
+  "name": "tet-for-teachers-engine",
+  "version": "1.0.0",
+  "description": "High-tech automated exam resource cluster for CTET 2026.",
+  "main": "script.js",
+  "author": "RikMakersHub",
+  "dependencies": {
+    "typescript": "^5.0.0"
+  },
+  "private": true
+}

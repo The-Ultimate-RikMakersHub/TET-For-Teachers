@@ -1,34 +1,38 @@
-// Local database matching precise language splits and Paper II elective streams
+// Clean production database locked strictly to central CTET parameters
 const examDatabase = {
     paper1: {
         topics: [
-            "Child Development & Pedagogy (30 Marks)", 
-            "Language I: Bengali / Regional (30 Marks)", 
-            "Language II: English (30 Marks)", 
-            "Primary Mathematics & Pedagogy (30 Marks)", 
-            "Environmental Studies - EVS (30 Marks)"
+            "📅 TARGET DATE: CTET Exam scheduled nationwide on September 6, 2026",
+            "💯 QUALIFY MATRIX: General requires 90/150 Marks | Reserved requires 82/150 Marks",
+            "👶 Child Development & Pedagogy (30 Marks - Core focus on primary psychological growth)",
+            "🗣️ Language I: Chosen Core Medium (30 Marks - 15M Content Comprehension + 15M Pedagogy)",
+            "📚 Language II: English / Alternative (30 Marks - 15M Passages + 15M Language Acquisition)",
+            "🧮 Mathematics & Pedagogy (30 Marks - Focuses on foundational numbers and logic tools)",
+            "🌍 Environmental Studies - EVS (30 Marks - Core NCERT Class 3-5 content parameters)"
         ],
         pdfs: [
-            { name: "Official CTET 2025 Paper-I PDF", url: "papers/ctet-2025-p1.pdf" },
-            { name: "Official CTET 2024 Paper-I PDF", url: "papers/ctet-2024-p1.pdf" },
-            { name: "Official WB-TET Past Paper-I PDF", url: "papers/wbtet-2024-p1.pdf" }
+            { name: "Official CTET Master Set 2026 (New)", url: "papers/ctet-2026-p1.pdf" },
+            { name: "Official CTET 2025 Past Paper PDF", url: "papers/ctet-2025-p1.pdf" },
+            { name: "Official CTET 2024 Past Paper PDF", url: "papers/ctet-2024-p1.pdf" }
         ]
     },
     paper2: {
         topics: [
-            "Child Development & Pedagogy (30 Marks)", 
-            "Language I: Bengali / Regional (30 Marks)", 
-            "Language II: English (30 Marks)", 
-            "Elective A: Math & Science Stream (60 Marks)", 
-            "Elective B: Social Science Stream (60 Marks)"
+            "📅 TARGET DATE: CTET Exam scheduled nationwide on September 6, 2026",
+            "💯 QUALIFY MATRIX: General requires 90/150 Marks | Reserved requires 82/150 Marks",
+            "🧠 Child Development & Pedagogy (30 Marks - Focuses on upper primary learning theories)",
+            "🗣️ Language I: Chosen Core Medium (30 Marks - Advanced comprehension and text parsing)",
+            "📚 Language II: English / Alternative (30 Marks - Advanced grammar and remedial teaching)",
+            "🧬 Elective Stream A: Math & Science (60 Marks - 30M Math + 30M Science split)",
+            "🏰 Elective Stream B: Social Science (60 Marks - History, Geography, and Social Life)"
         ],
         pdfs: [
             { name: "Official CTET 2025 Paper-II PDF", url: "papers/ctet-2025-p2.pdf" },
-            { name: "Official CTET 2024 Paper-II PDF", url: "papers/ctet-2024-p2.pdf" },
-            { name: "Official WB-TET Past Paper-II PDF", url: "papers/wbtet-2024-p2.pdf" }
+            { name: "Official CTET 2024 Paper-II PDF", url: "papers/ctet-2024-p2.pdf" }
         ]
     }
 };
+
 
 // Controls switching states of navigation buttons
 function switchPaper(paperKey) {

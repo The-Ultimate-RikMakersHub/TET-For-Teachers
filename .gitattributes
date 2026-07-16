@@ -1,4 +1,13 @@
+# =========================================================
+# 🎛️ SYSTEM LEVEL FORCE OVERRIDES FOR LINGUIST REPO STATISTICS
+# =========================================================
 *.xml linguist-detectable=true
 *.xml linguist-documentation=false
 *.ps1 linguist-detectable=true
+*.sh linguist-detectable=true
+*.json linguist-detectable=true
+*.toml linguist-detectable=true
+*.sql linguist-detectable=true
+*.ini linguist-detectable=true
 *.ts linguist-detectable=true
+*.md linguist-detectable=true

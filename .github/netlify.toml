@@ -1,0 +1,11 @@
+# =========================================================
+# ⚙️ TOML EDGE DISPATCH HEADERS FOR MULTI-DOMAIN ASSETS
+# =========================================================
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"

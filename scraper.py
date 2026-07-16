@@ -55,19 +55,15 @@ def compile_static_dataset(status_data):
     payload = {
         "system": status_data,
         "bot_responses": {
-            "hello": "Hello! I am your Pedagogy Expert Bot. Ask me about Math, Science, Social Studies, English, or Regional Language distributions.",
-            "piaget": "Jean Piaget's Cognitive Development Theory covers 4 key stages: Sensorimotor (0-2y), Preoperational (2-7y), Concrete Operational (7-11y), and Formal Operational (11y+). Expect 3-5 questions on this!",
-            "vygotsky": "Lev Vygotsky focuses on Social Constructivism. Key terms to remember: Zone of Proximal Development (ZPD), Scaffolding, and More Knowledgeable Other (MKO).",
-            "kohlberg": "Lawrence Kohlberg mapped Moral Development into 3 levels (Pre-conventional, Conventional, Post-conventional) across 6 distinct stages.",
-            "marks": "The exam is out of 150 marks. There is NO negative marking. You need 90 marks (60%) to pass if general, or 82 marks (55%) if reserved.",
-            "deadline": "Per the Supreme Court directive, all active teachers must clear the qualification standard before the August 31, 2028 operational cutoff.",
-            "math": "Mathematics contains 30 marks split equally: 15 marks for core content (Number systems, Algebra, Geometry) and 15 marks for Math Teaching Pedagogy.",
-            "science": "Science (Paper II) has 30 marks covering Food, Materials, The World of the Living, and Natural Phenomena, alongside 10 marks of Science Pedagogy.",
-            "social": "Social Science contains 60 marks total: History (20M), Geography (20M), Social-Political Life (20M). 15 marks out of these are dedicated to teaching pedagogy.",
-            "english": "Language II (English) covers 15 marks for Unseen Passages/Grammar and 15 marks for Principles of Language Teaching and Remedial Teaching.",
-            "bengali": "Language I (Regional) checks proficiency in the medium of instruction. It features 15 marks for reading comprehensions and 15 marks for language development pedagogy.",
-            "languages": "You must choose two distinct languages: Language I is usually your regional tongue (like Bengali), and Language II is English. Each holds 30 marks."
-        },
+    "hello": "Welcome to the CTET Expert Engine. Ask me about Paper I, Paper II, Exam Timelines, or Pass Marks.",
+    "marks": "The exam is out of 150 marks. No negative marking applies. General category requires 90 marks (60%), and reserved categories require 82 marks (55%) to qualify.",
+    "timeline": "The CTET September 2026 examination is officially scheduled for September 6, 2026. The registration window is closed.",
+    "math": "Mathematics maps out 30 marks total. 15 marks cover arithmetic, algebra, and geometry. 15 marks target math teaching methodologies.",
+    "science": "Science (Paper II) holds 30 marks: 20 marks focus on food, materials, and living organisms, while 10 marks are reserved for pedagogy.",
+    "social": "Social Science provides 60 marks total: 45 marks cover History, Geography, and Political Life, and 15 marks handle pedagogical evaluation structures.",
+    "pedagogy": "Pedagogy is woven into every single subject block. Child Development holds 30 marks alone, making theory comprehension critical."
+},
+
         "default_reply": "I have logged that parameter. Try searching for topics like 'Piaget', 'Marks', 'Math', 'Science', 'Social', or 'Languages' for instant syllabus insights."
     }
 

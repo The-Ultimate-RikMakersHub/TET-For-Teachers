@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DatabaseLayout engine="SQLite3">
+    <Table name="ctet_questions">
+        <Column name="id" type="INTEGER" parameter="PRIMARY KEY AUTOINCREMENT"/>
+        <Column name="subject" type="TEXT" parameter="NOT NULL"/>
+        <Column name="question" type="TEXT" parameter="NOT NULL"/>
+        <Column name="option_a" type="TEXT"/>
+        <Column name="option_b" type="TEXT"/>
+        <Column name="correct_answer" type="TEXT"/>
+        <Column name="hots_rating" type="INTEGER"/>
+    </Table>
+</DatabaseLayout>

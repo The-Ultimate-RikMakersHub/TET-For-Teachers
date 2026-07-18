@@ -78,3 +78,12 @@ window.addEventListener('DOMContentLoaded', () => {
         document.getElementById('live-status-text').innerText = "All streams operational. Next official notification cycle validation schedule checks automatically at midnight.";
     }, 1500);
 });
+
+// PWA Service Worker Registration Loop
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/TET-For-Teachers/sw.js")
+            .then((reg) => console.log("[PWA Engine] Secure background routing service active:", reg.scope))
+            .catch((err) => console.error("[PWA Engine] Service initialization blocked:", err));
+    });
+}

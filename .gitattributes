@@ -27,3 +27,7 @@
 
 *.yaml linguist-language=YAML
 *.yaml linguist-detectable=true
+
+*.json linguist-language=JSON
+*.json linguist-detectable=true
+manifest.json linguist-language=JSON

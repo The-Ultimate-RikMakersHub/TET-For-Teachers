@@ -1,0 +1,18 @@
+{
+  "short_name": "TETPrep",
+  "name": "TET-For-Teachers Mobile Hub",
+  "description": "Ad-free official CTET preparation resources, PDF vaults, and AI doubt solver.",
+  "icons": [
+    {
+      "src": "teacher.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/TET-For-Teachers/index.html",
+  "background_color": "#0f172a",
+  "theme_color": "#0f766e",
+  "display": "standalone",
+  "orientation": "portrait"
+}
